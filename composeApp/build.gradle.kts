@@ -52,6 +52,7 @@ kotlin {
             implementation(libs.koin.core)
             implementation(libs.ktor.serialization)
             implementation(libs.ktor.negotiation)
+            implementation(libs.koin.compose)
         }
 
         commonTest.dependencies {
@@ -64,6 +65,7 @@ kotlin {
             implementation(libs.compose.uitooling)
             implementation(libs.kotlinx.coroutines.android)
             implementation(libs.ktor.client.okhttp)
+            implementation(libs.koin.android)
         }
 
         jsMain.dependencies {
